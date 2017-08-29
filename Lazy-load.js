@@ -3,8 +3,8 @@ class LazyLoad {
 	constructor() {
 
 		let options = {
-	    	rootMargin: '0px',
-	    	threshold: [0]
+	    		rootMargin: '0px',
+	    		threshold: [0]
 		};
 
 		this._observer = new IntersectionObserver((entries) => {
